@@ -32,7 +32,9 @@
                 Console.WriteLine();
             }
 
-            Console.WriteLine($"Сумма всех элементов первого матрицы равна {sum_first}");
+            Console.WriteLine();
+            Console.WriteLine($"Сумма всех элементов первой матрицы равна {sum_first}");
+            Console.WriteLine();
 
             for (int i = 0; i < lines; i++)
             {
@@ -47,7 +49,9 @@
                 Console.WriteLine();
             }
 
-            Console.WriteLine($"Сумма всех элементов первого матрицы равна {sum_second}");
+            Console.WriteLine();
+            Console.WriteLine($"Сумма всех элементов второй матрицы равна {sum_second}");
+            Console.WriteLine();
 
             for (int i = 0; i < lines; i++)
             {
@@ -61,7 +65,8 @@
                 Console.WriteLine();
             }
 
-            Console.WriteLine($"Сумма всех элементов первого матрицы равна {sum_second}");
+            Console.WriteLine();
+            Console.WriteLine($"Сумма всех элементов третьей матрицы равна {sum_total}");
         }
     }
 }
